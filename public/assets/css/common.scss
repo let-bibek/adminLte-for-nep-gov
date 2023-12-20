@@ -1,0 +1,9 @@
+.hidden
+{
+    display: none;
+}
+
+.active-link{
+    color: var(--active-link-clr);
+    background-color: var(--active-link-bg);
+}

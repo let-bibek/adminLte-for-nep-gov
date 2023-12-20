@@ -1,0 +1,36 @@
+@font-face {
+  font-family: kalimati;
+  src: url("/assets/font/Kalimati Regular.otf") format("otf");
+}
+:root {
+  --text-color-light: #ffffff;
+  --text-color-dark: #212529;
+  --text-color-grey: #6c757d;
+  --link-clr: #007bff;
+  --active-link-clr:#fff;
+  --bg-light:#ffffff;
+  --np-gov-theme-bg: linear-gradient(to right, #00008b, #87cefa);
+  --gov-blue:#00008b;
+  --shuttle-bg: rgb(246, 250, 255);
+  --logo-clr: #be020a;
+  --logo-clr-hover: #9f020a;
+  --active-link-bg:var(var(--shuttle-bg));
+  --inactive-bg:#87939e;
+  --color-1:#e0a13f;
+  --color-2:#6684fa;
+  --color-3:#2d4257;
+  --color-4:#700101;
+  --color-5: #7b7f64;
+  --primary-font: kalimati;
+  --font-header: 2em;
+  --font-regular: 1em;
+  --font-large: 1.5em;
+  --bold: 500;
+  --bolder: 600;
+  --deep-bolder: 700;
+  --boldest: 800;
+}
+
+* {
+  font-family: var(--primary-font);
+}/*# sourceMappingURL=global.css.map */
